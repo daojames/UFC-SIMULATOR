@@ -2801,6 +2801,7 @@ public class FightScreen {
 				if ((stam1 + stam2) <= 70) {
 					newBalance += 50000;
 				}
+				newBalance += Fighter.BalanceUFC.sponsor;
 				Fighter.BalanceUFC.addTwitter(newTweet);
 				Fighter.BalanceUFC.addBalance(newBalance);
 				switch (Weight.Player.getWeight()) {
@@ -2852,6 +2853,7 @@ public class FightScreen {
 				if ((stam1 + stam2) <= 70) {
 					newBalance += 50000;
 				}
+				newBalance += Fighter.BalanceUFC.sponsor;
 				Fighter.BalanceUFC.addTwitter(newTweet);
 				Fighter.BalanceUFC.addBalance(newBalance);
 				switch (PositionScreen.wegt) {
