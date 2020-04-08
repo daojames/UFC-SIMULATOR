@@ -2853,6 +2853,8 @@ public class FightScreen {
 				if ((stam1 + stam2) <= 70) {
 					newBalance += 50000;
 				}
+				int iqSub = timesRead1;
+				Weight.Player.iq -= iqSub;
 				newBalance += Fighter.BalanceUFC.sponsor;
 				Fighter.BalanceUFC.addTwitter(newTweet);
 				Fighter.BalanceUFC.addBalance(newBalance);
